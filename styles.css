@@ -66,5 +66,55 @@ header img#menu {
   transform: rotate(45deg);
 }
 
+section#prod-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+  width: 100%;
+}
+
+section#prod-sec div#prod-details {
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 60px;
+}
+
+section#prod-sec div#prod-details h2 {
+  font-size: 60px;
+}
+
+section#prod-sec div#prod-details h3 {
+  font-size: 30px;
+  color: #6a4fe5;
+  font-weight: 300;
+  margin: 20px 0 10px 0;
+}
+
+section#prod-sec div#prod-details p {
+  font-size: 18px;
+  color: #325dad;
+  font-weight: 100;
+}
+
+section#prod-sec div#prod-details h4 {
+  margin: 25px;
+  font-size: 20px;
+}
+
+section#prod-sec div#prod-details a {
+  text-decoration: none;
+  font-size: 22px;
+  background: linear-gradient(
+    to right,
+    rgb(7, 65, 21),
+    rgb(255, 255, 3),
+    var(--marine-blue)
+  );
+  padding: 6px 12px;
+  color: white;
+  border-radius: 8px;
+}
+
 @media (max-widht: 500px) {
 }
