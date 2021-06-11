@@ -105,15 +105,50 @@ section#prod-sec div#prod-details h4 {
 section#prod-sec div#prod-details a {
   text-decoration: none;
   font-size: 22px;
-  background: linear-gradient(
-    to right,
-    rgb(7, 65, 21),
-    rgb(255, 255, 3),
-    var(--marine-blue)
-  );
+  background: linear-gradient(to right, rgb(2, 21, 61), var(--marine-blue));
   padding: 6px 12px;
-  color: white;
+  color: #fff;
   border-radius: 8px;
+}
+
+section#prod-sec div#prod-image {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-basis: 59%;
+}
+
+section#prod-sec div#prod-image img#img-ronaldinho {
+  width: 90%;
+}
+
+section#prod-sec div#prod-image div#color-bg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: linear-gradient(to right, rgb(37, 46, 110), rgb(115, 90, 208));
+  border-radius: 20px 0px 0px 20px;
+  height: 100%;
+  width: 80%;
+  z-index: -1;
+  transform: translateX(30px);
+}
+
+section#prod-sec div#prod-image #add-btn img {
+  width: 35px;
+  margin-bottom: 5px;
+}
+
+section#prod-sec div#prod-image #add-btn {
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  transition: transform ease-in 0.25s;
+  font-size: 14px;
+}
+
+section#prod-sec div#prod-image #add-btn:hover {
+  transform: scale(1.05);
 }
 
 @media (max-widht: 500px) {
