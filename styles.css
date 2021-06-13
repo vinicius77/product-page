@@ -18,7 +18,7 @@
 }
 
 header {
-  padding: 20px;
+  padding: 10px 5px 5px 5px;
   width: 100%;
   text-align: center;
   display: flex;
@@ -30,6 +30,7 @@ header {
   left: 0;
   z-index: 5;
   background-color: #f9f9f9;
+  border-bottom: 1px var(--marine-blue) solid;
 }
 
 header img#header-image {
@@ -153,6 +154,37 @@ section#prod-sec div#prod-image #add-btn {
 
 section#prod-sec div#prod-image #add-btn:hover {
   transform: scale(1.05);
+}
+
+section#video-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+  background: linear-gradient(
+    to right,
+    rgba(2, 21, 61, 0.5),
+    var(--marine-blue)
+  );
+  border-radius: 6px;
+  padding-top: 20px;
+  color: rgb(2, 21, 61);
+}
+
+section#video-sec h2 {
+  padding: 5px 0px 40px 0px;
+  font-size: 30px;
+  text-shadow: #2d4af1 1px 5px 3px;
+}
+
+section#video-sec p {
+  font-size: 22px;
+}
+
+section#video-sec iframe {
+  margin-top: 18px;
+  border-radius: 12px;
+  box-shadow: #2d4af1 1px 5px 3px;
 }
 
 @media (max-widht: 500px) {
