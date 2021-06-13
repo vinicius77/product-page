@@ -33,7 +33,7 @@ header {
   border-bottom: 1px var(--marine-blue) solid;
 }
 
-header img#header-image {
+header img#header-img {
   width: 60px;
   cursor: pointer;
 }
