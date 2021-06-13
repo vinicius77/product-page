@@ -47,7 +47,7 @@ header nav a {
   justify-content: flex-end;
   text-decoration: none;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 500;
   padding: 10px;
   text-align: center;
 }
@@ -92,14 +92,13 @@ section#prod-sec div#prod-details h2 {
 section#prod-sec div#prod-details h3 {
   font-size: 30px;
   color: #6a4fe5;
-  font-weight: 300;
+  font-weight: 500;
   margin: 20px 0 10px 0;
 }
 
 section#prod-sec div#prod-details p {
   font-size: 18px;
   color: #325dad;
-  font-weight: 100;
 }
 
 section#prod-sec div#prod-details h4 {
@@ -225,5 +224,36 @@ section#form-sec form div#form-control input {
   padding-left: 5px;
 }
 
-@media (max-widht: 500px) {
+@media (max-width: 700px) {
+  section#prod-sec div#prod-details h2 {
+    font-size: 40px;
+  }
+
+  section#prod-sec div#prod-details h3 {
+    font-size: 27px;
+  }
+
+  section#form-sec form div#form-control input {
+    width: 200px;
+  }
+
+  section#form-sec form div#form-control button {
+    padding: 6px 23px;
+  }
+}
+
+@media (max-width: 631px) {
+  section#prod-sec {
+    flex-direction: column;
+    margin: 50px 0px;
+  }
+
+  section#prod-sec div#prod-details {
+    margin-left: 0px;
+    margin-top: 60px;
+  }
+
+  section#prod-sec div#prod-image {
+    margin-top: 40px;
+  }
 }
